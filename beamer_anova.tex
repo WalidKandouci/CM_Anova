@@ -422,6 +422,15 @@ Associated estimator:
 \end{itemize} 
 \end{frame}
 
+\begin{frame}{Case: $\alpha_{i_0}=0$}
+\begin{aligned}
+\sum\limits_{i\ne i_0}(*)+(**)&=\sum\limits_{i\ne i_0}\sum\limits_{j=1}^{n_{i_0}}\hat{\mu}+\sum\limits_{j=1}^{n_{i_0}}\hat{\mu}+\sum\limits_{i\ne i_0}\hat{\alpha_i}+n_{i_0}\hat{\alpha}_{i_0}-\sum\limits_{i\ne i_0}\sum\limits_{j}y_{i,j}\\
+&-\sum\limits_{j=1}^{n_{i_0}}y_{i,j}\\
+&= \sum\limits_{i}\sum\limits_{j}\hat{\mu} +\sum\limits_{i}n_i\hat{\alpha_i}-\sum\limits_{i}\sum\limits_{j}y_{i,j}+\hat{\lambda}\\
+&=0
+\end{aligned}
+\end{frame}
+
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%    Bibliography   %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
