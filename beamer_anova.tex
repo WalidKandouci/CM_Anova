@@ -480,6 +480,17 @@ $rg(\Tilde{X}=I,\Tilde{X}=[\mathbb{I}_n,\mathbb{I}_{c_n},\dots,\mathbb{I}_{c_I}]
 \end{alertblock}
 \end{frame}
 
+\begin{frame}{Test: "are the terms different"}
+\begin{alertblock}{Our $H_0$}
+$H_0:\mu_{1}^{*}=\mu_{2}^{*}=\dots=\mu_{I}^{*}$
+\end{alertblock}
+\begin{itemize}
+    \item $F_{obs}=\frac{\frac{1}{I-1}\sum\limits_{i=1}^{I}(\bar{y}_{i,:}-\bar{y}_n)^2}{\hat{\sigma}^2}$ with: $F_{obs}\sim\Tilde{F}^{I-1}_{n-I}$
+    \item We reject the test: $F_{obs}>F^{I-1}_{n-I}(1-\alpha)$ (if we want to test $\alpha$)
+\end{itemize}
+
+\end{frame}
+
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%    Bibliography   %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
