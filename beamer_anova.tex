@@ -460,6 +460,15 @@ We admit that $\hat{\lambda}=0$
 \end{align*}
 \end{frame}
 
+\begin{frame}{Variance estimator}
+    \[\hat{\sigma}^2=\frac{1}{n-I}\sum\limits_{i=1}^{I}\sum\limits_{j=i}^{n_i}(\bar{y}_{i,:}-_{i,j})^2\]
+    \begin{itemize}
+        \item $n-I$: Correcton so that $\mathbb{E}(\hat{\sigma}^2)=\sigma^2$
+        \item $y_{i,j}=\mu^{*}+\epsilon_{i,j}$
+        \item $\epsilon_{i,j}\sim\mathcal{N}(0,\sigma^2)$ 
+    \end{itemize}
+\end{frame}
+
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%    Bibliography   %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
